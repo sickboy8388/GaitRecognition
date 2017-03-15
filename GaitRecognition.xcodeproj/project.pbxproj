@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1DA26FF1E79932A00AF23AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DA26FE1E79932A00AF23AE /* AppDelegate.swift */; };
+		C1DA27011E79932A00AF23AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DA27001E79932A00AF23AE /* ViewController.swift */; };
+		C1DA27041E79932A00AF23AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DA27021E79932A00AF23AE /* Main.storyboard */; };
+		C1DA27061E79932A00AF23AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1DA27051E79932A00AF23AE /* Assets.xcassets */; };
+		C1DA27091E79932A00AF23AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DA27071E79932A00AF23AE /* LaunchScreen.storyboard */; };
+		C1DA27141E79932A00AF23AE /* GaitRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DA27131E79932A00AF23AE /* GaitRecognitionTests.swift */; };
+		C1DA271F1E79932A00AF23AE /* GaitRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DA271E1E79932A00AF23AE /* GaitRecognitionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1DA27101E79932A00AF23AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1DA26F31E79932A00AF23AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1DA26FA1E79932A00AF23AE;
+			remoteInfo = GaitRecognition;
+		};
+		C1DA271B1E79932A00AF23AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1DA26F31E79932A00AF23AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1DA26FA1E79932A00AF23AE;
+			remoteInfo = GaitRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1DA26FB1E79932A00AF23AE /* GaitRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaitRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DA26FE1E79932A00AF23AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1DA27001E79932A00AF23AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1DA27031E79932A00AF23AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1DA27051E79932A00AF23AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1DA27081E79932A00AF23AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1DA270A1E79932A00AF23AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1DA270F1E79932A00AF23AE /* GaitRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaitRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DA27131E79932A00AF23AE /* GaitRecognitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaitRecognitionTests.swift; sourceTree = "<group>"; };
+		C1DA27151E79932A00AF23AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1DA271A1E79932A00AF23AE /* GaitRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaitRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DA271E1E79932A00AF23AE /* GaitRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaitRecognitionUITests.swift; sourceTree = "<group>"; };
+		C1DA27201E79932A00AF23AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1DA26F81E79932A00AF23AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DA270C1E79932A00AF23AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DA27171E79932A00AF23AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1DA26F21E79932A00AF23AE = {
+			isa = PBXGroup;
+			children = (
+				C1DA26FD1E79932A00AF23AE /* GaitRecognition */,
+				C1DA27121E79932A00AF23AE /* GaitRecognitionTests */,
+				C1DA271D1E79932A00AF23AE /* GaitRecognitionUITests */,
+				C1DA26FC1E79932A00AF23AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1DA26FC1E79932A00AF23AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1DA26FB1E79932A00AF23AE /* GaitRecognition.app */,
+				C1DA270F1E79932A00AF23AE /* GaitRecognitionTests.xctest */,
+				C1DA271A1E79932A00AF23AE /* GaitRecognitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1DA26FD1E79932A00AF23AE /* GaitRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				C1DA26FE1E79932A00AF23AE /* AppDelegate.swift */,
+				C1DA27001E79932A00AF23AE /* ViewController.swift */,
+				C1DA27021E79932A00AF23AE /* Main.storyboard */,
+				C1DA27051E79932A00AF23AE /* Assets.xcassets */,
+				C1DA27071E79932A00AF23AE /* LaunchScreen.storyboard */,
+				C1DA270A1E79932A00AF23AE /* Info.plist */,
+			);
+			path = GaitRecognition;
+			sourceTree = "<group>";
+		};
+		C1DA27121E79932A00AF23AE /* GaitRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1DA27131E79932A00AF23AE /* GaitRecognitionTests.swift */,
+				C1DA27151E79932A00AF23AE /* Info.plist */,
+			);
+			path = GaitRecognitionTests;
+			sourceTree = "<group>";
+		};
+		C1DA271D1E79932A00AF23AE /* GaitRecognitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1DA271E1E79932A00AF23AE /* GaitRecognitionUITests.swift */,
+				C1DA27201E79932A00AF23AE /* Info.plist */,
+			);
+			path = GaitRecognitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1DA26FA1E79932A00AF23AE /* GaitRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1DA27231E79932A00AF23AE /* Build configuration list for PBXNativeTarget "GaitRecognition" */;
+			buildPhases = (
+				C1DA26F71E79932A00AF23AE /* Sources */,
+				C1DA26F81E79932A00AF23AE /* Frameworks */,
+				C1DA26F91E79932A00AF23AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaitRecognition;
+			productName = GaitRecognition;
+			productReference = C1DA26FB1E79932A00AF23AE /* GaitRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1DA270E1E79932A00AF23AE /* GaitRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1DA27261E79932A00AF23AE /* Build configuration list for PBXNativeTarget "GaitRecognitionTests" */;
+			buildPhases = (
+				C1DA270B1E79932A00AF23AE /* Sources */,
+				C1DA270C1E79932A00AF23AE /* Frameworks */,
+				C1DA270D1E79932A00AF23AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1DA27111E79932A00AF23AE /* PBXTargetDependency */,
+			);
+			name = GaitRecognitionTests;
+			productName = GaitRecognitionTests;
+			productReference = C1DA270F1E79932A00AF23AE /* GaitRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1DA27191E79932A00AF23AE /* GaitRecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1DA27291E79932A00AF23AE /* Build configuration list for PBXNativeTarget "GaitRecognitionUITests" */;
+			buildPhases = (
+				C1DA27161E79932A00AF23AE /* Sources */,
+				C1DA27171E79932A00AF23AE /* Frameworks */,
+				C1DA27181E79932A00AF23AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1DA271C1E79932A00AF23AE /* PBXTargetDependency */,
+			);
+			name = GaitRecognitionUITests;
+			productName = GaitRecognitionUITests;
+			productReference = C1DA271A1E79932A00AF23AE /* GaitRecognitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1DA26F31E79932A00AF23AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "mattia pirro";
+				TargetAttributes = {
+					C1DA26FA1E79932A00AF23AE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GLHU9LDA7Y;
+						ProvisioningStyle = Automatic;
+					};
+					C1DA270E1E79932A00AF23AE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GLHU9LDA7Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1DA26FA1E79932A00AF23AE;
+					};
+					C1DA27191E79932A00AF23AE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GLHU9LDA7Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1DA26FA1E79932A00AF23AE;
+					};
+				};
+			};
+			buildConfigurationList = C1DA26F61E79932A00AF23AE /* Build configuration list for PBXProject "GaitRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1DA26F21E79932A00AF23AE;
+			productRefGroup = C1DA26FC1E79932A00AF23AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1DA26FA1E79932A00AF23AE /* GaitRecognition */,
+				C1DA270E1E79932A00AF23AE /* GaitRecognitionTests */,
+				C1DA27191E79932A00AF23AE /* GaitRecognitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1DA26F91E79932A00AF23AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DA27091E79932A00AF23AE /* LaunchScreen.storyboard in Resources */,
+				C1DA27061E79932A00AF23AE /* Assets.xcassets in Resources */,
+				C1DA27041E79932A00AF23AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DA270D1E79932A00AF23AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DA27181E79932A00AF23AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1DA26F71E79932A00AF23AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DA27011E79932A00AF23AE /* ViewController.swift in Sources */,
+				C1DA26FF1E79932A00AF23AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DA270B1E79932A00AF23AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DA27141E79932A00AF23AE /* GaitRecognitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DA27161E79932A00AF23AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DA271F1E79932A00AF23AE /* GaitRecognitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1DA27111E79932A00AF23AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1DA26FA1E79932A00AF23AE /* GaitRecognition */;
+			targetProxy = C1DA27101E79932A00AF23AE /* PBXContainerItemProxy */;
+		};
+		C1DA271C1E79932A00AF23AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1DA26FA1E79932A00AF23AE /* GaitRecognition */;
+			targetProxy = C1DA271B1E79932A00AF23AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1DA27021E79932A00AF23AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1DA27031E79932A00AF23AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1DA27071E79932A00AF23AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1DA27081E79932A00AF23AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1DA27211E79932A00AF23AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1DA27221E79932A00AF23AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1DA27241E79932A00AF23AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GLHU9LDA7Y;
+				INFOPLIST_FILE = GaitRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MP.mattia-pirro.GaitRecognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C1DA27251E79932A00AF23AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GLHU9LDA7Y;
+				INFOPLIST_FILE = GaitRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MP.mattia-pirro.GaitRecognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C1DA27271E79932A00AF23AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GLHU9LDA7Y;
+				INFOPLIST_FILE = GaitRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MP.mattia-pirro.GaitRecognitionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaitRecognition.app/GaitRecognition";
+			};
+			name = Debug;
+		};
+		C1DA27281E79932A00AF23AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GLHU9LDA7Y;
+				INFOPLIST_FILE = GaitRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MP.mattia-pirro.GaitRecognitionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaitRecognition.app/GaitRecognition";
+			};
+			name = Release;
+		};
+		C1DA272A1E79932A00AF23AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GLHU9LDA7Y;
+				INFOPLIST_FILE = GaitRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MP.mattia-pirro.GaitRecognitionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GaitRecognition;
+			};
+			name = Debug;
+		};
+		C1DA272B1E79932A00AF23AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GLHU9LDA7Y;
+				INFOPLIST_FILE = GaitRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MP.mattia-pirro.GaitRecognitionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GaitRecognition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1DA26F61E79932A00AF23AE /* Build configuration list for PBXProject "GaitRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DA27211E79932A00AF23AE /* Debug */,
+				C1DA27221E79932A00AF23AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1DA27231E79932A00AF23AE /* Build configuration list for PBXNativeTarget "GaitRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DA27241E79932A00AF23AE /* Debug */,
+				C1DA27251E79932A00AF23AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1DA27261E79932A00AF23AE /* Build configuration list for PBXNativeTarget "GaitRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DA27271E79932A00AF23AE /* Debug */,
+				C1DA27281E79932A00AF23AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1DA27291E79932A00AF23AE /* Build configuration list for PBXNativeTarget "GaitRecognitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DA272A1E79932A00AF23AE /* Debug */,
+				C1DA272B1E79932A00AF23AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1DA26F31E79932A00AF23AE /* Project object */;
+}
